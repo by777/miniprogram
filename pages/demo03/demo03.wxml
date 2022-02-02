@@ -1,0 +1,26 @@
+<!--pages/demo03/demo03.wxml-->
+<!-- <text>pages/demo03/demo03.wxml
+</text>
+<text>text相当于span标签,view相当于div标签会换行</text>
+<view>1</view>
+<view>2</view> -->
+
+<view>{{msg}}</view>
+<view>{{number}}</view>
+<view>{{isGirl}}</view>
+<view>对象不能直接渲染：{{person}}</view>
+<view>{{person.age}}</view>
+<view>data也可以在标签的属性中使用，可以去控制台中查看</view>
+<view data-num="{{number}}"></view>
+<view>使用data充当属性</view>
+<checkbox checked="{{isChecked}}">复选框</checkbox>
+<view>可以在大括号里写表达式{{7+7}}， {{"ni"+"hao"}}</view>
+<view>{{11 %2 ? "奇数":"偶数"}}</view>
+<view>列表循环wx-for</view>
+<view>
+    <view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+        索引：{{index}}
+        值：{{item.name}}
+        wx:key普通数组写*this,或者写data的唯一标识
+    </view>
+</view>
