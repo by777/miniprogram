@@ -24,3 +24,38 @@
         wx:key普通数组写*this,或者写data的唯一标识
     </view>
 </view>
+<view>当出现数组的嵌套循环时候 绑定的名称不要重名
+ wx:for-item wx:for-index='' 
+ 而且，默认不写的话一会命名为item和index
+只有一层循环的话for-item 和for-index可省略
+</view>
+<view>
+
+对象循环
+<view wx:for="{{person}}" wx:for-item="value" 
+wx:key="age" wx:for-index="key">
+属性：{{value}}
+值：{{key}}
+</view>
+</view>
+<view>
+-----------------
+block标签文字保留标签去除</view>
+<view>
+    <block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id" class="my_list">
+        索引：{{index}}
+        值：{{item.name}}
+       
+    </block>
+</view>
+<view>
+-----------------if 条件渲染
+<view wx:if="{{true}}">显示</view>
+<view wx:if="{{false}}">隐藏</view>
+<view wx:if="{{true}}">1eeeeW</view>
+<view wx:elif="{{false}}">2</view>
+<view wx:else>3</view>
+当标签不是频繁的切换显示优先使用wx:if（）实现原理是删除
+当标签频繁的切换显示的时候优先使用hidden（）原理是添加样式display:none
+
+</view>
