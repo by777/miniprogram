@@ -1,0 +1,6 @@
+/* pages/demo06/demo06.wxss 
+引入路径只能写相对路径
+*/
+
+@import "../../styles/common.wxss";
+

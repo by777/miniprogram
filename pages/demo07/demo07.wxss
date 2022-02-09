@@ -1,0 +1,14 @@
+/* 定义less变量 */
+/*需要使用插件编译为wxss*/
+/*让text标签用上这个变量*/
+text {
+  color: yellow;
+}
+view .vie1 text {
+  color: red;
+}
+/*导入less*/
+/*在demo07.less中导入*/
+view {
+  color: green;
+}

@@ -1,0 +1,7 @@
+<!--pages/demo08/demo08.wxml-->
+<text selectable="true">只有text标签可以长按复制，text=span,view=div
+&nbsp;----空格</text>
+<text decode="true">11&nbsp;&nbsp;&nbsp;11</text>
+    1.text长按复制selectable
+        是否解码
+-->
