@@ -1,0 +1,15 @@
+<!--pages/demo09/demo09.wxml-->
+<text>pages/demo09/demo09.wxml
+
+image组件默认宽高320 * 240
+
+图片原图200 * 100
+
+mode属性决定图片内容如何与图片标签宽高做设配
+
+lazyload懒加载
+</text>
+<view>短边</view>
+
+<image src="https://ftp.bmp.ovh/imgs/2019/12/a98809a1e6f29280.jpg" mode="aspectFill" lazy-load="true"/>
+<image src="https://ftp.bmp.ovh/imgs/2019/12/a98809a1e6f29280.jpg" mode="aspectFit" lazy-load="true"/>
