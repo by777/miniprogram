@@ -1,0 +1,8 @@
+<!--pages/demo12/demo12.wxml-->
+<text>
+rich-text nodes属性来实现
+1. 接受标签字符串
+2. 对象数组
+</text>
+<rich-text nodes="{{html}}">
+</rich-text>
