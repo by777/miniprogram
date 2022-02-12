@@ -1,0 +1,38 @@
+<!--pages/demo13/demo13.wxml-->
+<text>pages/demo13/demo13.wxml
+button
+
+size控制大小，type控制颜色
+plain 控制留空
+loading 是否添加等待图标
+</text>
+<button size="mini" type="primary">默认按钮</button>
+<button size="default" type="default">默认按钮</button>
+<button size="default" type="warn">warn按钮</button>
+
+<button size="default" type="warn" plain="true">plain按钮,镂空并透明</button>
+<button size="default" type="warn" plain="true" loading="true">等待中。。。</button>
+
+<view>button按钮的开放能力-----
+open-type: 
+contact: 直接打开，需要后台配置
+share：转发当前小程序到微信朋友中（非朋友圈）
+getPhoneNumber获取手机号,结合一个事件来使用，要用企业号或者测试号，从bindgetphonenumber，得到的信息是加密的
+    需要用户自己搭建后台服务器，进行解析
+getUserInfo获取当前用户的个人信息,不存在加密
+launchApp，在小程序中直接打开app
+    需要现在app中，通过app的某个链接，打开小程序
+    在小程序中通过这个功能重新打开app
+    
+openSetting:打开小程序内置的授权页
+feedback：内置的意见反馈页面
+</view>
+
+<button open-type="contact">contact</button>
+<button open-type="share">share</button>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">getPhoneNumber获取手机号</button>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">getUserInfo</button>
+<button open-type="launchApp">launchApp</button>
+<button open-type="openSetting">openSetting</button>
+<button open-type="launchApp">launchApp</button>
+<button open-type="feedback">feedback</button>

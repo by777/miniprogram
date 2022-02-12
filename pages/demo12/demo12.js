@@ -1,66 +1,34 @@
 // pages/demo12/demo12.js
 Page({
-
-    /**
-     * 页面的初始数据
-     */
     data: {
-        html: '<div class="sc-ifAKCX eyLbbH"><div class="sc-bZQynM famEdQ"><a class="sc-gzVnrw bhThaH" href="https://www.tmall.com/wow/z/heybox/heyboxrax/heybox?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.1&amp;scm=1007.home_icon.tmallxp.d&amp;wh_biz=tm&amp;disableNav=YES"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">天猫新品</p></a><a class="sc-gzVnrw krOjeo" href="https://h5.m.taobao.com/trip/home/index.html?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.6&amp;scm=1007.home_icon.lvx.d&amp;_wx_tpl=http%3A%2F%2Fh5.m.taobao.com%2Fapp%2Ftriprxhome%2Fpages%2Fhome%2Findex.weex.js&amp;wx_navbar_hidden=true&amp;ttid=12mtb0000155"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB1O_AyVwHqK1RjSZFPXXcwapXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">机票酒店</p></a></div><div class="sc-bZQynM famEdQ"><a class="sc-gzVnrw bhThaH" href="https://huodong.m.taobao.com/act/snipcode.html?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.2&amp;scm=1007.home_icon.juhs.d&amp;_wml_code=9XZq%2Bt%2FxdGk2vxtkbZvNtxIRr1Fl5o%2F4JYkxzjiABZCkN0X4ug9ejN%2FEA0XumFdlCJmui3oZzrfxu2OjRTO%2FUldTSbERTDFnNVuaq4bGXYarnsLycd1U6o4btoe8H%2FSSeBk5iibFKlpytcA4vdUvH%2BU%2BttvWBrsoV0Txewchwr8%3D"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB1LvIxVAvoK1RjSZFDXXXY3pXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">今日爆款</p></a><a class="sc-gzVnrw krOjeo" href="https://market.m.taobao.com/app/tmall-wireless/tjb-2018/index/index.html?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.7&amp;scm=1007.home_icon.lingjb.d&amp;disableNav=YES#/tjb"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB19yZJVBLoK1RjSZFuXXXn0XXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">金币庄园</p></a></div><div class="sc-bZQynM famEdQ"><a class="sc-gzVnrw bhThaH" href="https://pages.tmall.com/wow/z/import/tmg-rax-home/tmallimportHomewupr-index?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.3&amp;scm=1007.home_icon.tmallgj.d&amp;wh_biz=tm&amp;wh_pid=tmg-rax-home%2FtmallimportHome&amp;disableNav=YES"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB19uWKXkCy2eVjSZPfXXbdgpXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">天猫国际</p></a><a class="sc-gzVnrw krOjeo" href="https://market.m.taobao.com/app/pm/new-main/home?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.8&amp;scm=1007.home_icon.paim.d&amp;pha=true&amp;disableNav=YES"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB16ZYDk4n1gK0jSZKPXXXvUXXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">阿里拍卖</p></a></div><div class="sc-bZQynM famEdQ"><a class="sc-gzVnrw bhThaH" href="https://chaoshi.m.tmall.com/?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.4&amp;scm=1007.home_icon.tmallcs.d2&amp;_ig=shoutao"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB1FucwVwHqK1RjSZFgXXa7JXXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">天猫超市</p></a><a class="sc-gzVnrw krOjeo" href="https://huodong.m.taobao.com/act/snipcode.html?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.9&amp;scm=1007.home_icon.taobch.d&amp;_wml_code=6WHamsDC%2B8ca9ElMubUiQjsRC0O2j4yGgKPCJIKXglo%3D"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB19dcwVyrpK1RjSZFhXXXSdXXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">淘宝吃货</p></a></div><div class="sc-bZQynM famEdQ"><a class="sc-gzVnrw bhThaH" href="https://huodong.m.taobao.com/act/snipcode.html?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.5&amp;scm=1007.home_icon.chongzzx.d&amp;_wml_code=Vfw8V4IdfflvFcsPv2fKDCLgFlhCoOQ406ZO9WKS70zNVh2FhuClrYZQHV%2BUj8rweMrPJgOrvqON3zeUHJMIALqc03AQZnf3hmtKmJM2g5PuR9UuzwivVDM%2Bil4nBDGBPXlfSqZZA3CdATGQpVOeZMO8SbyJvaZdoC89%2B2Gg8FZsD4wqDUKs7VcgTjZxbgdE&amp;subSource=stcz_1"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB1llI3f4n1gK0jSZKPXXXvUXXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">充值中心</p></a><a class="sc-gzVnrw krOjeo" href="https://market.m.taobao.com/app/tbsearchwireless-pages/new-catemap/p/s-nx-categories?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.10&amp;scm=1007.home_icon.fenl.d&amp;wh_weex=true"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB1nBktVxTpK1RjSZR0XXbEwXXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">分类</p></a></div><div class="sc-bZQynM famEdQ"><a class="sc-gzVnrw bhThaH" href="https://huodong.m.taobao.com/act/snipcode.html?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.11&amp;scm=1007.home_icon.xiany.d&amp;_wml_code=2RLfNbB12QpISV%2BL7aiHZwm5noZrOPbYmjwLhlOAmgeK3XKiEERT7ZdlL5lwWrfH8vrxje8x3wcjpFnTBn2bZuI6VIVmz1Ww1SxKMPNxdKnSxkM02klo1Wq1PvanB8MPDB7%2Fxfoi8vf2ert4z%2BOYjJBMsIILVspKvgSN8SN%2BsCg%3D"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB1CoEwVrvpK1RjSZFqXXcXUVXa-185-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">闲鱼</p></a><a class="sc-gzVnrw krOjeo" href="https://huodong.m.taobao.com/act/snipcode.html?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.12&amp;scm=1007.home_icon.tmallsx.d&amp;_wml_code=uxMdTqOeZt4IfBD8ssl15zR25nV9irif72OvYZHv66PlUxWwFw7AI3Y4j1t%2FGJXQYDZlDvAssH0HSvvBn2twyr3u7MVHWWGQZIVPwerViJM0j60YHvZMcG3JG1ZCBQswmg48wSD9%2BC%2FgFzZX0JcgQenoXJca%2B2FpGgRDcldUh%2F4mrO0cKrXo5rF%2Fsyo7cH7G"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB1fcOKXkCy2eVjSZSyXXXukVXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">天猫美食</p></a></div><div class="sc-bZQynM famEdQ"><a class="sc-gzVnrw bhThaH" href="https://pages.tmall.com/wow/a/act/tmall/dailygroup/18/wupr?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.13&amp;scm=1007.home_icon.88vip.d&amp;wh_pid=daily-186355&amp;disableNav=YES"><img class="sc-htoDjs gRQzSI" src="https://img.alicdn.com/tfs/TB1FyEazAY2gK0jSZFgXXc5OFXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">会员中心</p></a><a class="sc-gzVnrw krOjeo" href="https://pages.tmall.com/wow/yao/20485/aljkmh?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.14&amp;scm=1007.home_icon.alijk.d&amp;wh_biz=tm"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB1tikBVAPoK1RjSZKbXXX1IXXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">阿里健康</p></a></div><div class="sc-bZQynM famEdQ"><a class="sc-gzVnrw bhThaH" href="https://m.duanqu.com?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.15&amp;scm=1007.home_icon.zdxh.d&amp;_ariver_appid=6158543"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB1xcTYxFT7gK0jSZFpXXaTkpXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">造点新货</p></a><a class="sc-gzVnrw krOjeo" href="https://huodong.m.taobao.com/act/snipcode.html?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.16&amp;scm=1007.home_icon.koubsh.d&amp;_wml_code=qeLJPHY5ySO3lef1quOfGhXh%2B8UW1yf1hl95h8wZUjlFlGFkyop3K4Hb%2B95myeqeJT4BYa03LO60S6xd8wO18LZ3%2FVvg2pTGoYLZvdSZu8bbze9cO%2FiQDU%2F6LiQkOXRW6f4DA%2FMN2L81ERi%2Bbsad%2Fk%2BxIGTGkv98p4M7sIG2SpI%3D"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB1h1MnVCrqK1RjSZK9XXXyypXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">口碑生活</p></a></div><div class="sc-bZQynM famEdQ"><a class="sc-gzVnrw bhThaH" href="https://m.duanqu.com?utparam=%7B%22ranger_buckets_native%22%3A%22tsp2584_31920%22%7D&amp;spm=a2141.1.iconsv5.17&amp;scm=1007.home_icon.tuhuo.d&amp;_ariver_appid=17570832"><img class="sc-htoDjs gRQzSI" src="https://gw.alicdn.com/tfs/TB11tFkr7L0gK0jSZFxXXXWHVXa-183-144.png?getAvatar=1"><p class="sc-dnqmqq blJSr">土货鲜食</p></a><!-- empty --></div></div>'
-    },
-
-    /**
-     * 生命周期函数--监听页面加载
-     */
-    onLoad: function (options) {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面初次渲染完成
-     */
-    onReady: function () {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面显示
-     */
-    onShow: function () {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面隐藏
-     */
-    onHide: function () {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面卸载
-     */
-    onUnload: function () {
-
-    },
-
-    /**
-     * 页面相关事件处理函数--监听用户下拉动作
-     */
-    onPullDownRefresh: function () {
-
-    },
-
-    /**
-     * 页面上拉触底事件的处理函数
-     */
-    onReachBottom: function () {
-
-    },
-
-    /**
-     * 用户点击右上角分享
-     */
-    onShareAppMessage: function () {
-
+      // 1 标签字符串 最常用的
+      // html:'<div class="tpl-wrapper" data-tpl-id="m_h_v31icon_1" style="margin-top: -10px;"><div view-name="DFrameLayout" style="display: flex; overflow: hidden; height: 160px; width: 375px; place-self: flex-start; position: relative;"><div view-name="DView" style="display: flex; overflow: hidden; background-color: rgb(255, 255, 255); margin-top: 9px; height: 100%; width: 100%; top: 0px; left: 0px; position: absolute;"></div><div view-name="HImageView" style="display: flex; overflow: hidden; height: 100%; width: 100%; position: absolute;"><div style="width: 100%; height: 100%; background-image: url(&quot;https://gw.alicdn.com/tps/TB155AUPpXXXXajXVXXXXXXXXXX-1125-480.png_.webp&quot;); background-repeat: no-repeat; background-position: center center; background-size: contain;"></div></div><div view-name="DLinearLayout" aria-label="天猫" style="display: flex; overflow: hidden; width: 61px; height: 67px; margin-left: 10px; margin-top: 13px; -webkit-box-orient: vertical; flex-direction: column; top: 0px; left: 0px; position: absolute;"><div view-name="HGifView" style="display: flex; overflow: hidden; width: 61px; height: 48px;"><div style="width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; background-image: url(&quot;https://gw.alicdn.com/tfs/TB1Wxi2trsrBKNjSZFpXXcXhFXa-183-144.png_.webp&quot;);"></div></div><div view-name="DTextView" style="display: inline-block; overflow: hidden; font-size: 11px; height: auto; margin-top: 5px; text-align: center; color: rgb(102, 102, 102); width: 61px; text-overflow: ellipsis; white-space: nowrap; line-height: 14px;">天猫</div></div><div view-name="DLinearLayout" aria-label="聚划算" style="display: flex; overflow: hidden; width: 61px; height: 67px; margin-left: 83.5px; margin-top: 13px; -webkit-box-orient: vertical; flex-direction: column; top: 0px; left: 0px; position: absolute;"><div view-name="HGifView" style="display: flex; overflow: hidden; width: 61px; height: 48px;"><div style="width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; background-image: url(&quot;https://img.alicdn.com/tfs/TB10UHQaNjaK1RjSZKzXXXVwXXa-183-144.png?getAvatar=1_.webp&quot;);"></div></div><div view-name="DTextView" style="display: inline-block; overflow: hidden; font-size: 11px; height: auto; margin-top: 5px; text-align: center; color: rgb(102, 102, 102); width: 61px; text-overflow: ellipsis; white-space: nowrap; line-height: 14px;">聚划算</div></div><div view-name="DLinearLayout" aria-label="天猫国际" style="display: flex; overflow: hidden; width: 61px; height: 67px; margin-left: 157px; margin-top: 13px; -webkit-box-orient: vertical; flex-direction: column; top: 0px; left: 0px; position: absolute;"><div view-name="HGifView" style="display: flex; overflow: hidden; width: 61px; height: 48px;"><div style="width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; background-image: url(&quot;https://gw.alicdn.com/tfs/TB11rTqtj7nBKNjSZLeXXbxCFXa-183-144.png?getAvatar=1_.webp&quot;);"></div></div><div view-name="DTextView" style="display: inline-block; overflow: hidden; font-size: 11px; height: auto; margin-top: 5px; text-align: center; color: rgb(102, 102, 102); width: 61px; text-overflow: ellipsis; white-space: nowrap; line-height: 14px;">天猫国际</div></div><div view-name="DLinearLayout" aria-label="外卖" style="display: flex; overflow: hidden; width: 61px; height: 67px; margin-left: 230.5px; margin-top: 13px; -webkit-box-orient: vertical; flex-direction: column; top: 0px; left: 0px; position: absolute;"><div view-name="HGifView" style="display: flex; overflow: hidden; width: 61px; height: 48px;"><div style="width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; background-image: url(&quot;https://gw.alicdn.com/tps/TB1eXc7PFXXXXb4XpXXXXXXXXXX-183-144.png?getAvatar=1_.webp&quot;);"></div></div><div view-name="DTextView" style="display: inline-block; overflow: hidden; font-size: 11px; height: auto; margin-top: 5px; text-align: center; color: rgb(102, 102, 102); width: 61px; text-overflow: ellipsis; white-space: nowrap; line-height: 14px;">外卖</div></div><div view-name="DLinearLayout" aria-label="天猫超市" style="display: flex; overflow: hidden; width: 61px; height: 67px; margin-left: 304px; margin-top: 13px; -webkit-box-orient: vertical; flex-direction: column; top: 0px; left: 0px; position: absolute;"><div view-name="HGifView" style="display: flex; overflow: hidden; width: 61px; height: 48px;"><div style="width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; background-image: url(&quot;https://gw.alicdn.com/tfs/TB1IKqDtpooBKNjSZFPXXXa2XXa-183-144.png_.webp&quot;);"></div></div><div view-name="DTextView" style="display: inline-block; overflow: hidden; font-size: 11px; height: auto; margin-top: 5px; text-align: center; color: rgb(102, 102, 102); width: 61px; text-overflow: ellipsis; white-space: nowrap; line-height: 14px;">天猫超市</div></div><div view-name="DLinearLayout" aria-label="充值中心" style="display: flex; overflow: hidden; width: 61px; height: 67px; margin-left: 10px; margin-top: 84px; -webkit-box-orient: vertical; flex-direction: column; top: 0px; left: 0px; position: absolute;"><div view-name="HGifView" style="display: flex; overflow: hidden; width: 61px; height: 48px;"><div style="width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; background-image: url(&quot;https://gw.alicdn.com/tfs/TB1o0FLtyMnBKNjSZFoXXbOSFXa-183-144.png_.webp&quot;);"></div></div><div view-name="DTextView" style="display: inline-block; overflow: hidden; font-size: 11px; height: auto; margin-top: 5px; text-align: center; color: rgb(102, 102, 102); width: 61px; text-overflow: ellipsis; white-space: nowrap; line-height: 14px;">充值中心</div></div><div view-name="DLinearLayout" aria-label="飞猪旅行" style="display: flex; overflow: hidden; width: 61px; height: 67px; margin-left: 83.5px; margin-top: 84px; -webkit-box-orient: vertical; flex-direction: column; top: 0px; left: 0px; position: absolute;"><div view-name="HGifView" style="display: flex; overflow: hidden; width: 61px; height: 48px;"><div style="width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; background-image: url(&quot;https://gw.alicdn.com/tfs/TB15nKhtpkoBKNjSZFEXXbrEVXa-183-144.png?getAvatar=1_.webp&quot;);"></div></div><div view-name="DTextView" style="display: inline-block; overflow: hidden; font-size: 11px; height: auto; margin-top: 5px; text-align: center; color: rgb(102, 102, 102); width: 61px; text-overflow: ellipsis; white-space: nowrap; line-height: 14px;">飞猪旅行</div></div><div view-name="DLinearLayout" aria-label="领金币" style="display: flex; overflow: hidden; width: 61px; height: 67px; margin-left: 157px; margin-top: 84px; -webkit-box-orient: vertical; flex-direction: column; top: 0px; left: 0px; position: absolute;"><div view-name="HGifView" style="display: flex; overflow: hidden; width: 61px; height: 48px;"><div style="width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; background-image: url(&quot;https://gw.alicdn.com/tfs/TB1BqystrZnBKNjSZFrXXaRLFXa-183-144.png?getAvatar=1_.webp&quot;);"></div></div><div view-name="DTextView" style="display: inline-block; overflow: hidden; font-size: 11px; height: auto; margin-top: 5px; text-align: center; color: rgb(102, 102, 102); width: 61px; text-overflow: ellipsis; white-space: nowrap; line-height: 14px;">领金币</div></div><div view-name="DLinearLayout" aria-label="拍卖" style="display: flex; overflow: hidden; width: 61px; height: 67px; margin-left: 230.5px; margin-top: 84px; -webkit-box-orient: vertical; flex-direction: column; top: 0px; left: 0px; position: absolute;"><div view-name="HGifView" style="display: flex; overflow: hidden; width: 61px; height: 48px;"><div style="width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; background-image: url(&quot;https://gw.alicdn.com/tfs/TB1CMf4tlnTBKNjSZPfXXbf1XXa-183-144.png?getAvatar=1_.webp&quot;);"></div></div><div view-name="DTextView" style="display: inline-block; overflow: hidden; font-size: 11px; height: auto; margin-top: 5px; text-align: center; color: rgb(102, 102, 102); width: 61px; text-overflow: ellipsis; white-space: nowrap; line-height: 14px;">拍卖</div></div><div view-name="DLinearLayout" aria-label="分类" style="display: flex; overflow: hidden; width: 61px; height: 67px; margin-left: 304px; margin-top: 84px; -webkit-box-orient: vertical; flex-direction: column; top: 0px; left: 0px; position: absolute;"><div view-name="HGifView" style="display: flex; overflow: hidden; width: 61px; height: 48px;"><div style="width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center; background-size: contain; background-image: url(&quot;https://gw.alicdn.com/tfs/TB18P98tyQnBKNjSZFmXXcApVXa-183-144.png?getAvatar=1_.webp&quot;);"></div></div><div view-name="DTextView" style="display: inline-block; overflow: hidden; font-size: 11px; height: auto; margin-top: 5px; text-align: center; color: rgb(102, 102, 102); width: 61px; text-overflow: ellipsis; white-space: nowrap; line-height: 14px;">分类</div></div></div></div>'
+      // 2 对象数组
+      html:[
+        {
+          // 1 div标签 name属性来指定
+          name:"div",
+          // 2 标签上有哪些属性
+          attrs:{
+            // 标签上的属性 class  style
+            class:"my_div",
+            style:"color:red;"
+          },
+          // 3 子节点 children 要接收的数据类型和 nodes第二种渲染方式的数据类型一致 
+          children:[
+            {
+              name:"p",
+              attrs:{},
+              // 放文本
+              children:[
+                {
+                  type:"text",
+                  text:"hello"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
-})
+  })
