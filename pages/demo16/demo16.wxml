@@ -1,0 +1,10 @@
+<!--pages/demo16/demo16.wxml-->
+<text>pages/demo16/demo16.wxml
+复选框</text>
+<view>
+<checkbox-group bindchange="handleItemChange">
+    <checkbox wx:for="{{list}}" wx:key="id" value="{{item.value}}">{{item.name}}</checkbox>
+    
+</checkbox-group>
+</view>
+<view class="" >选择的是：{{checkedList}}</view>

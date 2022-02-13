@@ -1,2 +1,15 @@
 <!--pages/demo14/demo14.wxml-->
-<text>pages/demo14/demo14.wxml</text>
+<text>
+icon字体图标
+type:sucess,sucess_no_circle,...,cancel,...,
+
+size:23,...
+
+color:...
+
+
+</text>
+-----
+----
+<icon  type="info" size="93"></icon>
+<icon  type="sucess" size="93"></icon>

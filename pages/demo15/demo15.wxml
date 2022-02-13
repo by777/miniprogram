@@ -1,0 +1,12 @@
+<!--pages/demo15/demo15.wxml-->
+<text>pages/demo15/demo15.wxml
+
+
+
+</text>
+<radio-group bindchange="handleChange">
+    <radio value="male" color="red">男</radio>
+    <radio value="female" color="yellow">女</radio>
+</radio-group>
+
+<view>选中的是{{gender}}</view>
