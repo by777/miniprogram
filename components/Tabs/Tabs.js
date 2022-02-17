@@ -15,22 +15,22 @@ Component({
             {
                 id:0,
                 name:"首页",
-                isActivate:true
+                isActive:true
             },
             {
                 id:1,
                 name:"原创",
-                isActivate:false
+                isActive:false
             },
             {
                 id:2,
                 name:"分类",
-                isActivate:false
+                isActive:false
             },
             {
                 id:3,
                 name:"关于",
-                isActivate:false
+                isActive:false
             },
         ]
     },
